@@ -4,11 +4,12 @@
   "description": "koa-learn",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -harmony router-simple"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0"
   }
 }
